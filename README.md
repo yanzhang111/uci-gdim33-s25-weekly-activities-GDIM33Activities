@@ -13,10 +13,12 @@
 
 
 ### Activity 2
-1.I want do 2D platformer＋ puzzle＋Narrative
+1.I want do 2D platformer＋ puzzle＋story
 
 
-2.
+2.The core gameplay is that the player needs to progress through platforming and puzzle-solving to obtain items, unlock new areas, and advance the game, ultimately escaping. NPCs or narration will be used to drive the progression of the game, and the entire game will have an underlying background story.The gameplay loop is: story → exploration → platform → puzzle-solving → item collection → unlock new areas → Again.
+
+(break-down)[https://docs.google.com/drawings/d/19ndeEQ2fwK5_1Ei4o9wf03d8gsiIuWsXk3kHsQobrTg/edit]
 
 
 ## W2
