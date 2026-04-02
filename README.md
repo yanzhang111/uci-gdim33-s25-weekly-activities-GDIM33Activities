@@ -13,7 +13,10 @@
 
 
 ### Activity 2
-Put your activity 2 image here. REMOVE THIS INSTRUCTIONAL TEXT.
+1.I want do 2D platformer＋ puzzle＋Narrative
+
+
+2.
 
 
 ## W2
