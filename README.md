@@ -1,7 +1,7 @@
 # GDIM 33 In-Class Activities
 ## W1
 ### Activity 1
-(brainstorm)[https://docs.google.com/drawings/d/1juUyadzY5pdLHZYG_7olUoVZ2hORbiA3c5x0oQTOyw8/edit]
+[brainstorm](https://docs.google.com/drawings/d/1juUyadzY5pdLHZYG_7olUoVZ2hORbiA3c5x0oQTOyw8/edit)
 
 1.My inspiration sources mostly consist of puzzle games, narrative-driven games, and Metroidvania-style games. I really like the feeling of freely exploring a map, and solving puzzles while exploring, with a high level of freedom. Personally, when I play games, I also tend to prefer 2D games (mainly because I get motion sickness from 3D). I also really like colors and colorful lighting.
 
@@ -18,7 +18,7 @@
 
 2.The core gameplay is that the player needs to progress through platforming and puzzle-solving to obtain items, unlock new areas, and advance the game, ultimately escaping. NPCs or narration will be used to drive the progression of the game, and the entire game will have an underlying background story.The gameplay loop is: story → exploration → platform → puzzle-solving → item collection → unlock new areas → Again.
 
-(break-down)[https://docs.google.com/drawings/d/19ndeEQ2fwK5_1Ei4o9wf03d8gsiIuWsXk3kHsQobrTg/edit]
+[break-down](https://docs.google.com/drawings/d/19ndeEQ2fwK5_1Ei4o9wf03d8gsiIuWsXk3kHsQobrTg/edit)
 
 
 ## W2
