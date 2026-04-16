@@ -21,7 +21,20 @@
 [break-down](https://docs.google.com/drawings/d/19ndeEQ2fwK5_1Ei4o9wf03d8gsiIuWsXk3kHsQobrTg/edit)
 
 
-## W2
-Write your W2 Devlog here.
+## W3
+### Activity 1
+[break-down](https://docs.google.com/drawings/d/19ndeEQ2fwK5_1Ei4o9wf03d8gsiIuWsXk3kHsQobrTg/edit)
 
-Continue adding additional headers below this one for future weeks and future activities.
+
+### Activity 2
+1.Saving the event name as a Scene variable is a little more convenient, because I do not need to keep typing the same name again and again in different graphs. This not only keeps things more organized, but also makes it less likely that I will make a typo. If I want to change the event name later, I only need to change it in one place instead of updating every graph one by one.
+
+
+2.What was helpful about Debug.Log() for me was that it let me first check whether a specific step was actually being triggered, instead of waiting until the whole system was finished to find out if something was wrong. For example, I added a Debug.Log() when clicking on the walrus, so when I clicked it and saw a message appear in the Console, I knew that the click itself was working.
+
+
+3.I think Set Cursor Lock State is not especially relevant to my Vertical Slice, because my game is a 2D platformer and does not really need the cursor to be locked in the center of the screen. However, the idea behind it is still helpful, because if the game has dialogue or UI, different states may still need different control methods.
+
+
+4.I think the concept of a game state is relevant to my Vertical Slice, but not completely. It is relevant because the assignment requires me to use this system in my game, so I still need to include it. But personally, I feel like writing code directly works better for me and is easier to use. Even so, for this assignment, game states did help organize different situations in the game more clearly.
+
