@@ -53,9 +53,13 @@
 4.The issues found during testing are:
 
 1.The player sometimes gets stuck on the jumping platforms.
+
 2.The camera is too close to the player.
+
 3.The attack input should be disabled for now.
+
 4.If the player falls off the map, they should return to the spawn point.
+
 5.The player should not be able to move while jumping, so that needs to be disabled as well.
 
 
