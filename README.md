@@ -38,3 +38,25 @@
 
 4.I think the concept of a game state is relevant to my Vertical Slice, but not completely. It is relevant because the assignment requires me to use this system in my game, so I still need to include it. But personally, I feel like writing code directly works better for me and is easier to use. Even so, for this assignment, game states did help organize different situations in the game more clearly.
 
+
+## W4
+### Activity 1
+1.In my game, the player can currently move, jump, press E to collect herbs, and check at the gate whether it can be opened. When monsters see the player, they will chase the player and launch attacks.
+
+
+2.My testing goal is to check whether the functions above are working properly, whether there are any bugs, and whether the movement and jump values are reasonable.
+
+
+3. playtest team members：Tina Zhang, Xichan Zheng, JingyiBi, Yan Zhang, Alex Ding
+
+
+4.The issues found during testing are:
+
+1.The player sometimes gets stuck on the jumping platforms.
+2.The camera is too close to the player.
+3.The attack input should be disabled for now.
+4.If the player falls off the map, they should return to the spawn point.
+5.The player should not be able to move while jumping, so that needs to be disabled as well.
+
+
+### Activity 2
