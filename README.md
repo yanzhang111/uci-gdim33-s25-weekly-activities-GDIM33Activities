@@ -65,3 +65,11 @@ The player should not be able to move while jumping, so that needs to be disable
 
 
 ### Activity 2
+1.I think yes. Because in this system, the dialogue content is mainly controlled by the DialogueNodeW4 ScriptableObjects. The writer would only need to keep creating new dialogue nodes, write each line of dialogue and player reply, and then connect them to the next node.
+
+
+2.I think they could make a lot, because each dialogue node is basically just a ScriptableObject. The writer can keep adding new nodes and new branches without writing code. The real limit is not the number of nodes, but how the system and UI are designed. For example, in this activity, the screen can only fit about four options at the same time. So adding more dialogue is not a big problem, but having too many reply options under one node would be limited.
+
+
+3.I understand this button as something that makes Visual Scripting rescan the code and types in the project, and then update the node library it can use.
+
