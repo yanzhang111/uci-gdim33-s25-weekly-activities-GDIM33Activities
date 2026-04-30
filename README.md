@@ -74,7 +74,7 @@ The player should not be able to move while jumping, so that needs to be disable
 3.I understand this button as something that makes Visual Scripting rescan the code and types in the project, and then update the node library it can use.
 
 
-## W4
+## W5
 ### Activity 1
 Boss Phase 2 and Item Drop System
 
@@ -86,9 +86,9 @@ Step 1: Make the Boss take damage
 
 
 
-First, add a health system to the Boss, with max health and current health. Then, when the player’s attack hits the Boss, the Boss health will go down.
+1.add a health system to the Boss, with max health and current health. Then, when the player’s attack hits the Boss, the Boss health will go down.
 
-Test: Run the game, attack the Boss, and check if the Console shows “Boss took damage.” Also check if the Boss health number goes down.
+2.Test: Run the game, attack the Boss, and check if the Console shows “Boss took damage.” Also check if the Boss health number goes down.
 
 
 
@@ -96,9 +96,9 @@ Step 2: Make the Boss enter Phase 2
 
 
 
-When the Boss health is below half, the Boss will change from Phase 1 to Phase 2. I can keep this simple at first, like making the Boss move faster or attack more often.
+1.When the Boss health is below half, the Boss will change from Phase 1 to Phase 2. I can keep this simple at first, like making the Boss move faster or attack more often.
 
-Test: Run the game and attack the Boss until its health is below half. Check if the Console shows “Boss entered Phase 2,” and see if the Boss becomes faster or more dangerous.
+2.Test: Run the game and attack the Boss until its health is below half. Check if the Console shows “Boss entered Phase 2,” and see if the Boss becomes faster or more dangerous.
 
 
 
@@ -107,6 +107,10 @@ Step 3: Make the Boss die and drop an item
 
 
 
-When the Boss health reaches 0, the Boss will die and stop attacking. Then, an item will appear at the Boss’s death position. The player can pick up the item by touching it.
+1.When the Boss health reaches 0, the Boss will die and stop attacking. Then, an item will appear at the Boss’s death position. The player can pick up the item by touching it.
 
-Test: Run the game and defeat the Boss. Check if the Console shows “Boss died” and “Item dropped.” Also check if the item appears in the scene. When the player touches the item, the item should disappear.
+2.Test: Run the game and defeat the Boss. Check if the Console shows “Boss died” and “Item dropped.” Also check if the item appears in the scene. When the player touches the item, the item should disappear.
+
+
+
+### Activity 2
