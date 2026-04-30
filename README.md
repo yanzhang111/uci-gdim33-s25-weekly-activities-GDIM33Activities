@@ -114,3 +114,4 @@ Step 3: Make the Boss die and drop an item
 
 
 ### Activity 2
+In class, I first spent some time browsing itch.io to pick out a boss, then spent a little while setting up its animations and basic controls. I think I’m running a bit behind, so I haven’t gotten to the part I was supposed to write yet））
