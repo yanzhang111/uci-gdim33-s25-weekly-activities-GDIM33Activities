@@ -135,4 +135,14 @@ In class, I first spent some time browsing itch.io to pick out a boss, then spen
 
 
 ### Activity 2
-1.
+1.I think it is because Multiply does not simply put two colors on top of each other. Instead, it multiplies the RGB values of the two colors. Since RGB values are usually between 0 and 1, when two numbers smaller than 1 are multiplied together, the result usually becomes smaller. When the value becomes smaller, the color looks darker and less saturated.
+
+
+
+2.I think the result will become more transparent. Alpha is also a number between 0 and 1. If we use Multiply, it multiplies the two Alpha values together. The result usually becomes smaller, and a smaller Alpha means the object is more transparent, so it will look more transparent than before.
+
+
+3.I think these UV values should come from the model itself. Because when a model is made, it usually already has a UV map.
+
+
+4.Noooooooo, I hate math. (╥﹏╥)
