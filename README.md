@@ -115,3 +115,24 @@ Step 3: Make the Boss die and drop an item
 
 ### Activity 2
 In class, I first spent some time browsing itch.io to pick out a boss, then spent a little while setting up its animations and basic controls. I think I’m running a bit behind, so I haven’t gotten to the part I was supposed to write yet））
+
+
+## W6
+### Activity 1
+1.The game features newly added dialogue and a second attack phase, and the player and enemy health bars have been updated.
+
+
+
+2.[Milestone 2](https://yanzhang111.itch.io/milestone-20506)
+
+
+
+3.My testing objective for today is to verify whether the new dialogue and attack mechanics I added are functioning correctly, and to ensure that my character's attack power and health points are reasonably balanced.
+
+
+4.The NPC dialogue is incorrect and needs to be adjusted; the enemies' attack power also needs tweaking, as it is currently a bit too difficult.
+
+
+
+### Activity 2
+1.
