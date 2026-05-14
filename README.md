@@ -146,3 +146,33 @@ In class, I first spent some time browsing itch.io to pick out a boss, then spen
 
 
 4.Noooooooo, I hate math. (╥﹏╥)
+
+
+
+## W7
+### Activity 1
+1.The Vertex Color node gets its data from the Shiba model itself. The mesh already has color information saved on its vertices, so the shader is just reading that color data and showing it on the model.
+
+
+
+2.I think it blends because the color is only saved on the vertices, not on every tiny part of the model. So when Unity shows the model, it has to fill in the color between those vertices. That makes the colors mix together a little instead of having a very clean hard edge.
+
+
+
+3.The vertex color Shiba is less detailed because the colors only come from the vertices. A texture can store much more detail, so it looks clearer. I think vertex color is useful for simple color effects, stylized models, or debug views？
+
+
+
+4.Maybe something is wrong with the vertex normals, especially around the Shiba’s back-left leg. The color there looks a little strange compared to the rest of the model, so I think that part might have some normal issue.
+
+
+
+5.I think we could test UV data with a debug shader. It would be useful because if the UVs look wrong, the texture might stretch or appear in the wrong place on the model. So using color to check UVs can help find texture mapping problems.
+
+
+
+6.The lighting has an error because part of the Shiba’s normal data seems wrong. Since the shader uses the normals to calculate lighting, the back of the Shiba gets lit in a strange way when those normals are not correct.
+
+
+
+7.I think we used Additive because fire is supposed to look bright and glowing. Additive blending makes the bright parts add light on top of the background, so the fire looks more like it is shining instead of just being a flat texture.
