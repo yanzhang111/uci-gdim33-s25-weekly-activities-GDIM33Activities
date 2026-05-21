@@ -176,3 +176,40 @@ In class, I first spent some time browsing itch.io to pick out a boss, then spen
 
 
 7.I think we used Additive because fire is supposed to look bright and glowing. Additive blending makes the bright parts add light on top of the background, so the fire looks more like it is shining instead of just being a flat texture.
+
+
+
+## W8
+### Activity 1
+1.Since the second stage, I made a lot of small adjustments to my game. Most of them were balance changes, such as adjusting the boss’s health, the enemies’ health, and the player’s health. I also changed some parts of the map and adjusted the difficulty of the platforming sections.
+
+
+
+
+[520 playtest](https://yanzhang111.itch.io/520playtest)
+
+
+
+
+The goal of this playtest was to see whether players felt the difficulty was too hard, whether they could follow my instructions and complete the whole game flow correctly, and whether there were any bugs.
+
+
+
+2.Players felt that the character’s attack animation was too long, so it could be shortened a little. They also said that some game items were a bit hard to find. Another issue was that the player’s collider was too large.
+
+
+
+### Activity 2
+1.I think the Fraction node is used to make the shine texture move in a loop. Since Time keeps going up, the value would keep getting bigger if we used it directly. The Fraction node only keeps the decimal part, so the value keeps looping from 0 to 1. This makes the ShineTex UV move, so it looks like the chest has a moving shine effect on it.
+
+
+
+2.The Shine texture needs to be black by default because we use an Add node to add it to the original texture. If it was not black, it would always make the sprite brighter. Black does not really add anything, so the sprite can still look normal.
+
+
+
+3.Because the building texture is only used to preview the effect in the ShaderGraph. In the scene, each SpriteRenderer still uses its own sprite, so they do not all become the building texture.
+
+
+
+4.I think it is because ShineSpeed should affect Time first, and then the Fraction node loops that value. This way, it changes the speed of the whole shine animation, so it looks more normal. If we multiply after the Fraction node, it only makes the already-looped value bigger, and the effect can look less smooth, like it is jumping a little.
