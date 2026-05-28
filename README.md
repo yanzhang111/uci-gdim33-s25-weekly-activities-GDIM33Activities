@@ -213,3 +213,28 @@ The goal of this playtest was to see whether players felt the difficulty was too
 
 
 4.I think it is because ShineSpeed should affect Time first, and then the Fraction node loops that value. This way, it changes the speed of the whole shine animation, so it looks more normal. If we multiply after the Fraction node, it only makes the already-looped value bigger, and the effect can look less smooth, like it is jumping a little.
+
+
+
+
+## W9
+### Activity 1
+1.The game my table chose was Fruit Ninja.
+
+
+
+2.The rendering effect we thought of is a full-screen white flash. For example, when the player cuts fruit, gets a combo, or hits a bomb, the screen suddenly flashes bright. We think this effect is probably a full-screen post-processing effect. If we were going to make it, we could make the screen turn white or brighter for a very short time, then quickly go back to normal. The strength of the effect could be controlled by a value, like brightness or opacity. The way to trigger it would probably be through code: when the player cuts a fruit, the game plays the white flash effect once, and then turns it off automatically.
+
+
+
+
+Another effect is the screen effect after cutting a bomb. In Fruit Ninja, if the player cuts a bomb, the screen has a strong reaction, like getting darker or flashing for a second. This is also a full-screen effect. If we were going to make it, when the player cuts a bomb, we could use a time-based component to control the camera shake a little bit, and then quickly return everything back to normal.
+
+
+
+### Activity 2
+1.<img width="2424" height="1240" alt="image" src="https://github.com/user-attachments/assets/c7be7d7b-61da-4c17-8def-0e18d7741e1a" />
+
+
+
+Today, I recreated a similar shader effect in my own game based on what we learned in class. Then I added my own color to the basic effect.
