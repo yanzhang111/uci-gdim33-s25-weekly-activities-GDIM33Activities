@@ -238,3 +238,40 @@ Another effect is the screen effect after cutting a bomb. In Fruit Ninja, if the
 
 
 Today, I recreated a similar shader effect in my own game based on what we learned in class. Then I added my own color to the basic effect.
+
+
+
+
+## W10
+### Activity 1
+1.My playtesting goal this time was to see if players could finish the full game flow, and to check if there were any new bugs.
+
+
+
+
+2.The feedback I got from my classmates was that the attack timing felt a little weird, and the text was kind of hard to read in the game. They also suggested that I should add an “E” prompt when the player gets close to an NPC or an interactive object. Another piece of feedback was that the player should not be able to get close to the Boss before collecting the herbs, because that makes the game flow a little confusing.
+
+
+
+
+3.[Final playtest](https://yanzhang111.itch.io/final-0603)
+
+
+
+### Activity 2
+1.Our group’s planning method is to first decide the main direction of the game, like whether it is 2D or 3D, and whether it is a platformer, horror game, exploration game, or another type. After that, we can roughly list the main systems the game needs, such as the player, enemies, quests, interactions, and UI.
+
+
+
+
+Next, we can draw a simple object diagram to help us understand the relationships between these systems. Finally, we can break the bigger features into tasks that can be finished step by step, so coding feels more clear.
+
+
+
+
+I think planning helps me understand the overall amount of work better. Some ideas sound simple at first, but after breaking them down, I realize they actually need many parts. Planning ahead helps me decide which features I can actually make and which ones may not be possible.
+
+
+
+### Activity 3
+1.Today, I changed the font a little and mainly fixed some bugs related to the text. Some dialogue and UI text were not very clear before, so I adjusted the text display to make it easier for players to read during the game.
